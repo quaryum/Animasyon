@@ -1,0 +1,23 @@
+{
+  "name": "animasyon",
+  "version": "1.0.0",
+  "description": "SURATSIZ 2D karakter animasyonu (Remotion)",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Suratsiz out/suratsiz.mp4",
+    "render-walk": "remotion render Yuruyus out/yuruyus.mp4"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/cli": "^4.0.484",
+    "@remotion/media-utils": "^4.0.484",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remotion": "^4.0.484"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  }
+}
